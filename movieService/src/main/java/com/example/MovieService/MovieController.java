@@ -1,16 +1,21 @@
 package com.example.MovieService;
 
+import jakarta.validation.Valid;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import javax.validation.Valid;
+
 import java.util.ArrayList;
 import java.util.List;
 
 @RestController
 @RequestMapping("/movies")
 public class MovieController {
+
+    @Autowired
+    MovieService movieService;
 
     private List<Movie> movies;
 
@@ -27,6 +32,25 @@ public class MovieController {
     public ResponseEntity<Movie> getMovieById(@PathVariable Long id) {
         Movie movie = findMovieById(id);
         if (movie != null) {
+            return ResponseEntity.status(HttpStatus.OK).body(movie);
+        } else {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
+        }
+    }
+    @GetMapping("/isRent/{id}")
+    public ResponseEntity<Boolean> isRentMovieById(@PathVariable Long id) {
+        Movie movie = findMovieById(id);
+        if (movie != null) {
+            return ResponseEntity.status(HttpStatus.OK).body(movie.isAvailable());
+        } else {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
+        }
+    }
+    @GetMapping("/rent/{id}")
+    public ResponseEntity<Movie> rentMovieById(@PathVariable Long id) {
+        Movie movie = findMovieById(id);
+        if (movie != null) {
+            movieService.rentMovie(id);
             return ResponseEntity.status(HttpStatus.OK).body(movie);
         } else {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).build();

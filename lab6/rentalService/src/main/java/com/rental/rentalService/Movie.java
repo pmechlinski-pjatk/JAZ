@@ -1,4 +1,4 @@
-package com.example.MovieService;
+package com.rental.rentalService;
 
 public class Movie {
     private Long id;
@@ -6,16 +6,6 @@ public class Movie {
     private String category;
     private int releaseYear;
     private double rating;
-
-    private boolean isAvailable;
-
-    public boolean isAvailable() {
-        return isAvailable;
-    }
-
-    public void setAvailable(boolean available) {
-        this.isAvailable = available;
-    }
 
     // Default constructor
     public Movie() {
