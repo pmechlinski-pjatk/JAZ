@@ -4,13 +4,14 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import io.swagger.v3.oas.annotations.media.Schema;
 
 import java.sql.Timestamp;
 import java.util.Date;
 
 @Entity
 public class Entry {
-
+//    @Schema(accessMode = Schema.AccessMode.AUTO)
     private String currency;
     private int queryDays;
     private double result;

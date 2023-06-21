@@ -5,22 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4da6144-83c1-4553-9bc4-6e85493bc341" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../lab6/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab6/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab6/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab6/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab6/.idea/lab6.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab6/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab6/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab6/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../last_homework/nbp.homework/src/main/java/com/pjatk/nbp/homework/controller/QueryRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../last_homework/nbp.homework/src/main/java/com/pjatk/nbp/homework/errorHandling/RestControllerAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../last_homework/nbp.homework/src/main/java/com/pjatk/nbp/homework/model/Entry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../last_homework/nbp.homework/src/main/java/com/pjatk/nbp/homework/repository/LoggingRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../last_homework/nbp.homework/src/main/java/com/pjatk/nbp/homework/service/DateService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../last_homework/nbp.homework/src/main/java/com/pjatk/nbp/homework/service/LoggerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../last_homework/nbp.homework/src/main/java/com/pjatk/nbp/homework/service/RestService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../movieService/.idea/movieService.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../last_homework/nbp.homework/src/main/java/com/pjatk/nbp/homework/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../last_homework/nbp.homework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../last_homework/nbp.homework/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../last_homework/nbp.homework/src/main/java/com/pjatk/nbp/homework/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../last_homework/nbp.homework/src/main/java/com/pjatk/nbp/homework/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../last_homework/nbp.homework/src/main/java/com/pjatk/nbp/homework/controller/QueryRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../last_homework/nbp.homework/src/main/java/com/pjatk/nbp/homework/controller/QueryRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../last_homework/nbp.homework/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../last_homework/nbp.homework/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
